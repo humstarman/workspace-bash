@@ -3,7 +3,7 @@ set -e
 DEFAULT_S="default"
 show_help () {
 cat << USAGE
-usage: $0 [ -N CONTROLLER-NAME ] [ -s NAMESPACE ]
+usage: $0 [ -N CONTROLLER-NAME ] [ -S NAMESPACE ]
     -n : Specify the name of the controller.
     -s : Specify the namespace. If not specified, use '${DEFAULT_S}' by default.
 USAGE
